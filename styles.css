@@ -2,10 +2,16 @@
 
 :root{
     --cor-de-fundo : #E5E5E5;
-    --cor-branca : #FFFFFF
+    --cor-branca : #FFFFFF;
+    --cor-laranja: #EB9B00;
+    --cor-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --font-principal: "Poppins", sans-serif;
 }
 body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 16px;
 }
 h1{
     background-color: var(--cor-branca);
